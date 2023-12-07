@@ -62,7 +62,6 @@ namespace Api
             {
                 endpoints.MapControllers();
             });
-            //
         }
 
     }
