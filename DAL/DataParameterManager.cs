@@ -6,6 +6,7 @@ namespace DataAccessHandler
 {
     public class DataParameterManager
     {
+
         public static IDbDataParameter CreateParameter(string providerName, string name, object value, DbType dbType, ParameterDirection direction = ParameterDirection.Input)
         {
             IDbDataParameter parameter = null;

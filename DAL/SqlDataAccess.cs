@@ -4,6 +4,7 @@ namespace DataAccessHandler
 {
     public class SqlDataAccess : IDatabaseHandler
     {
+        
         private string ConnectionString { get; set; }
         public SqlDataAccess(string connectionString)
         {

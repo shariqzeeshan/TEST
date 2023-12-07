@@ -5,6 +5,7 @@ namespace DataAccessHandler
 {
     public class OdbcDataAccess : IDatabaseHandler
     {
+
         private string ConnectionString { get; set; }
 
         public OdbcDataAccess(string connectionString)

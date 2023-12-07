@@ -9,4 +9,5 @@ namespace DataAccessHandler
         IDataAdapter CreateAdapter(IDbCommand command);
         IDbDataParameter CreateParameter(IDbCommand command);
     }
+
 }

@@ -28,7 +28,7 @@ namespace Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IEmployeeRepository>(x => new EmployeeRepository(Configuration.GetConnectionString("Default")));
+            services.AddTransient<IBlogPostRepository>(x => new BlogPostRepository(Configuration.GetConnectionString("Default")));
             services.AddMvc();
         }
 

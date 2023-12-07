@@ -18,15 +18,10 @@ namespace Api
             //CreateWebHostBuilder(args).Build().Run();
             var host = CreateHostBuilder(args).Build();
             
-            
-            
+           
             // run the web app
             host.Run();
         }
-
-        //public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-        //    WebHost.CreateDefaultBuilder(args)
-        //        .UseStartup<Startup>();
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)

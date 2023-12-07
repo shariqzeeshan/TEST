@@ -2,6 +2,7 @@
 using System.Data;
 namespace DataAccessHandler
 {
+
     public class DBManager
     {
         private DatabaseHandlerFactory dbFactory;

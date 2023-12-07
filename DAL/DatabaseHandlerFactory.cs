@@ -11,6 +11,7 @@ namespace DataAccessHandler
             connectionStringSettings = ConfigurationManager.ConnectionStrings[connectionStringName];
         }
 
+
         public IDatabaseHandler CreateDatabase()
         {
             IDatabaseHandler database = null;
